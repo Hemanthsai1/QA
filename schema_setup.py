@@ -3,8 +3,8 @@ import uuid
 from transformers import pipeline
 
 # Initialize Weaviate client
-WEAVIATE_URL = "https://ebn82fawroqbihprgxepiq.c0.asia-southeast1.gcp.weaviate.cloud" 
-WEAVIATE_API_KEY = "QymsZXqy8zVZ2tKV5IN1qAyMfJEcqyQdVeTg"
+WEAVIATE_URL = "Weaviate_rul" 
+WEAVIATE_API_KEY = "Weaviate_rul"
 
 client = weaviate.Client(url=WEAVIATE_URL, auth_client_secret=weaviate.AuthApiKey(api_key=WEAVIATE_API_KEY))
 

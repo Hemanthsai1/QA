@@ -5,9 +5,9 @@ from sentence_transformers import SentenceTransformer
 import uuid
 
 # Load API keys from environment variables for security
-COHERE_API_KEY = os.getenv('COHERE_API_KEY', 'KwrW7VXnrnPlx0MXtoKK3s6cptTfcratretmQsj5')  # Replace with your Cohere API key
-WEAVIATE_URL = os.getenv('WEAVIATE_URL', 'https://ebn82fawroqbihprgxepiq.c0.asia-southeast1.gcp.weaviate.cloud')  # Replace with your Weaviate URL
-WEAVIATE_API_KEY = os.getenv('WEAVIATE_API_KEY', 'QymsZXqy8zVZ2tKV5IN1qAyMfJEcqyQdVeTg')  # Replace with your Weaviate API key
+COHERE_API_KEY = os.getenv('COHERE_API_KEY', 'cohere-api')  # Replace with your Cohere API key
+WEAVIATE_URL = os.getenv('WEAVIATE_URL', 'Weaviate_url')  # Replace with your Weaviate URL
+WEAVIATE_API_KEY = os.getenv('WEAVIATE_API_KEY', 'Weaviate_url')  # Replace with your Weaviate API key
 
 # Initialize Cohere API client
 co = cohere.Client(COHERE_API_KEY)
